@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: "Manrope", sans-serif;
+    height: 100vh;
+    font-weight: 800;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.cartao {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.conselho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    height: 150px;
+    max-width: 445px;
+    justify-content: space-around;
+}
+
+.titulo-do-cartao {
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.frase {
+    color: hsl(193, 38%, 86%);
+    font-size: 20px;
+    text-align: center;
+}
+
+picture {
+    margin-bottom: 60px;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border: none;
+}
+
+button:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+@media(max-width: 576px){
+    .cartao {
+        max-width: 370px;
+    }
+    .frase {
+        margin: 0 15px;
+    }
+}
