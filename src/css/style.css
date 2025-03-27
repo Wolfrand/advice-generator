@@ -66,12 +66,3 @@ button:hover {
     cursor: pointer;
     box-shadow: 0 5px 15px hsl(150, 100%, 66%);
 }
-
-@media(max-width: 576px){
-    .cartao {
-        max-width: 370px;
-    }
-    .frase {
-        margin: 0 15px;
-    }
-}
