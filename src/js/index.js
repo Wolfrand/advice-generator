@@ -18,7 +18,7 @@ async function pedirConselho() {
         numeroDoConselho.innerHTML = adviceId;
         conselho.innerText = advice;
     } catch (erro) {
-        console.log("Erro ao tentar buscar as informações da API", erro);
+        console.error("Erro ao tentar buscar as informações da API", erro);
     };
 };
 
